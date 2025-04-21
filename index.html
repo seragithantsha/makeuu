@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELENA | Makeup Artist</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-text">ELENA</div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="cursor"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">ELENA</a>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fullscreen Menu -->
+  <div class="fullscreen-menu">
+    <div class="mega-menu">
+      <button class="menu-close-btn" aria-label="Close menu">
+        <span class="close-icon">&times;</span>
+      </button>
+      <!--close-->
+    </div>
+    <ul>
+      <li><a href="index.html" data-text="HOME">HOME</a></li>
+      <li><a href="" data-text="WORK">WORK</a></li>
+      <li><a href="" data-text="ABOUT">ABOUT</a></li>
+      <li><a href="" data-text="CONTACT">CONTACT</a></li>
+    </ul>
+    <div class="menu-footer">
+      <a href="#">Instagram</a>
+      <a href="#">Behance</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="line">MAKEUP</span>
+        <span class="line">ARTIST</span>
+      </h1>
+      <p class="hero-subtitle">For brands, brides & editorial</p>
+    </div>
+    <div class="hero-image">
+      <img src="assets/5.jpg" alt="Makeup Artistry">
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="work">
+    <div class="work-header">
+      <h2>SELECTED WORK</h2>
+      <div class="filters">
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="bridal">BRIDAL</button>
+        <button class="filter" data-filter="fashion">FASHION</button>
+        <button class="filter" data-filter="editorial">EDITORIAL</button>
+      </div>
+    </div>
+    
+    <!-- Horizontal Scroll (Default State) -->
+    <div class="work-gallery horizontal-scroll">
+      <div class="gallery-track">
+        <!-- Bridal Work -->
+        <div class="work-item bridal">
+          <img src="assets/creativefred-oat3l0iVwPs-unsplash.jpg" alt="Bridal Makeup">
+          <div class="work-info">
+            <h3>Zuki</h3>
+            <p>Spring/Summer</p>
+          </div>
+        </div>
+        <!-- Fashion Work -->
+        <div class="work-item fashion">
+          <img src="assets/vitaliy-shevchenko-qZFazXUtYc4-unsplash.jpg" alt="Fashion Makeup">
+          <div class="work-info">
+            <h3>Zara Campaign</h3>
+            <p>Spring/Summer 2023</p>
+          </div>
+        </div>
+        <!-- Editorial Work -->
+        <div class="work-item editorial">
+          <img src="assets/oladimeji-odunsi-aU_eOcelLhQ-unsplash.jpg" alt="Editorial Makeup">
+          <div class="work-info">
+            <h3>Vogue Italia</h3>
+            <p>Avant-garde beauty</p>
+          </div>
+        </div>
+        <!-- More bridal items -->
+        <div class="work-item bridal">
+          <img src="assets/jonathan-borba-R_eauI3rpiU-unsplash.jpg" alt="Bridal Makeup">
+          <div class="work-info">
+            <h3>Pamela's Day</h3>
+            <p>Classic romantic style</p>
+          </div>
+        </div>
+        <!-- More fashion items -->
+        <div class="work-item fashion">
+          <img src="assets/jonathan-borba-UAlPHGZ4nUU-unsplash.jpg" alt="Fashion Makeup">
+          <div class="work-info">
+            <h3>Pamela's Day</h3>
+            <p>Classic romantic style</p>
+          </div>
+        </div>
+        <!-- More editorial items -->
+        <div class="work-item editorial">
+          <img src="assets/majid-akbari-QyMYIpaCvkU-unsplash.jpg" alt="Editorial Makeup">
+          <div class="work-info">
+            <h3>Harper's Bazaar</h3>
+            <p>Modern glamour</p>
+          </div>
+        </div>
+        <!-- More fashion items -->
+        <div class="work-item fashion">
+          <img src="assets/jay-soundo-XZi72WvVRWc-unsplash.jpg" alt="Fashion Makeup">
+          <div class="work-info">
+            <h3>H&M Collaboration</h3>
+            <p>Fall/Winter 2022</p>
+          </div>
+        </div>
+        
+        <!-- More fashion items -->
+        <div class="work-item fashion">
+          <img src="assets/olena-bohovyk-KoF8YnZEUYE-unsplash.jpg" alt="Fashion Makeup">
+          <div class="work-info">
+            <h3>H&M Collaboration</h3>
+            <p>Fall/Winter 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Editorial Feature Section -->
+<section class="editorial-feature">
+  <div class="scroll-white">
+    <div class="line"></div>
+    <span>Scroll</span>
+  </div>
+  <div class="scroll-white scroll-two">
+    <div class="line"></div>
+    <span>Scroll</span>
+    </div>
+    
+    <div class="editorial-container">
+      <!-- Magazine Layout - Vogue Style -->
+      <div class="vogue-feature">
+        <div class="vogue-layout">
+          <div class="vogue-image">
+            <img src="assets/6.jpg" alt="Professional Makeup Artist at Work">
+            <div class="image-credit">Photograph by James Mitchell</div>
+          </div>
+          <div class="vogue-content">
+            <span class="vogue-category">BEAUTY PROFILE</span>
+            <h2 class="vogue-title">Elena Vasquez:<br>Crafting Beauty for Fashion's Elite</h2>
+            
+            <div class="vogue-byline">
+              <span>By Sophie Laurent</span>
+              <span class="vogue-date">November 2023</span>
+            </div>
+            
+            <p class="vogue-text vogue-dropcap">
+              With over 12 years in the beauty industry, Elena Vasquez has become the secret weapon behind countless iconic beauty moments. Her portfolio includes exclusive collaborations with Hermosa, Elena, and Zara for their runway shows, where her innovative techniques translate designers' visions into living art.
+            </p>
+            
+            <p class="vogue-text">
+              On commercial sets, Vasquez's technical mastery shines through looks engineered to withstand hours under hot lights while maintaining pixel-perfect precision. Her campaign work for L'Oréal, Maybelline, and Revlon has redefined commercial beauty standards.
+            </p>
+            
+            <blockquote class="vogue-quote">
+              "Every face is a canvas and every project an opportunity to create something extraordinary. The runway demands artistry, while commercials require technical perfection."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Images Grid - Vogue Style -->
+      <div class="vogue-gallery">
+        <div class="gallery-main">
+          <img src="assets/2.jpg" alt="Editorial Makeup">
+          <div class="gallery-caption">Commercial: ZUki</div>
+        </div>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/jay-soundo-7e2amrjpkVk-unsplash.jpg" alt="Fashion Look">
+            <div class="gallery-caption">Detail: The Art of Precision</div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="assets/1.jpg" alt="Editorial Makeup">
+            <div class="gallery-caption">Elena 2024 Collection • Photographed by Marco Rivera</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/allan-lainez-XmcbfFrKsSo-unsplash.jpg" alt="Makeup Detail">
+            <div class="gallery-caption">Fall/Winter 2023 Campaign</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/stepan-kulyk-rTCUTwPQr6A-unsplash.jpg" alt="Editorial Beauty">
+            <div class="gallery-caption">Editorial: Avant-Garde Expression</div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Article Content - Vogue Style -->
+      <article class="vogue-article">
+        <h2 class="vogue-article-title">THE ART OF EDITORIAL MAKEUP</h2>
+        <p class="vogue-article-text">
+          Editorial makeup transcends traditional beauty standards, creating visual stories that captivate and inspire. In my work for Vogue Italia, we explored the interplay of light, texture, and bold color choices—each look a carefully constructed narrative element. This series represents the pinnacle of collaborative creativity between makeup artists, photographers, and stylists.
+        </p>
+        <a href="#" class="vogue-link">
+          Read Full Feature <span class="vogue-arrow">→</span>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section class="wedding-gallery">
+    <div class="gallery-header">
+      <h2 class="section-title">Our <span class="highlight">Bridal Magic</span></h2>
+      <p class="section-subtitle">Where every brushstroke writes a love story</p>
+    </div>
+  
+    <div class="gallery-grid">
+      <!-- Hero Image -->
+      <div class="gallery-item hero-item">
+        <img src="assets/wedding-3792773_1920.jpg" alt="Bride with dramatic veil" loading="lazy">
+        <div class="hover-caption">
+          <h3>Ethereal Elegance</h3>
+          <p>Classic bridal with modern glow</p>
+        </div>
+      </div>
+  
+      <!-- Grid Items -->
+      <div class="gallery-item">
+        <img src="assets/jonathan-borba-vp9CXZfQpdc-unsplash.jpg" alt="Makeup close-up" loading="lazy">
+        <div class="hover-caption">
+          <h3>Precision Artistry</h3>
+          <p>Flawless skin & defined features</p>
+        </div>
+      </div>
+  
+      <div class="gallery-item vertical-item">
+        <img src="assets/jonathan-borba-LNZVaPeJRdc-unsplash.jpg" alt="Traditional bridal look" loading="lazy">
+        <div class="hover-caption">
+          <h3>Cultural Heritage</h3>
+          <p>Authentic traditional styles</p>
+        </div>
+      </div>
+  
+      <div class="gallery-item">
+        <img src="assets/pexels-misha-earle-366060-1777848.jpg" alt="Groom grooming" loading="lazy">
+        <div class="hover-caption">
+          <h3>Cultural Heritage</h3>
+          <p>Authentic traditional styles</p>
+        </div>
+      </div>
+  
+      <div class="gallery-item wide-item">
+        <img src="assets/jonathan-borba-2Yb30_SEJkc-unsplash.jpg" alt="Bridal party" loading="lazy">
+        <div class="hover-caption">
+          <h3>Harmonious Looks</h3>
+          <p>Coordinated bridal party</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="gallery-cta">
+      <button class="cta-button">View Full Portfolio →</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="assets/wedding-4876463_1920.jpg" alt="Elena Makeup Artist">
+      </div>
+      <div class="about-content">
+        <h2>ABOUT ELENA</h2>
+        <p>With over a decade in the beauty industry, I specialize in creating unforgettable looks for fashion brands, magazines, and brides worldwide. My work has been featured in Vogue, Harper's Bazaar, and campaigns for Zara & H&M.</p>
+        <div class="brand-logos">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zara_Logo.svg/1200px-Zara_Logo.svg.png" alt="Zara">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/709px-H%26M-Logo.svg.png?20241205145136" alt="H&M">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <h2>GET IN TOUCH</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" placeholder="NAME" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="EMAIL" required>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="MESSAGE" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">SEND MESSAGE</button>
+      </form>
+      <div class="contact-info">
+        <a href="mailto:hello@elenamakeup.com">hello@elenamakeup.com</a>
+        <a href="tel:+1234567890">+1 (234) 567-890</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>© 2023 ELENA MAKEUP ARTIST</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">Behance</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
